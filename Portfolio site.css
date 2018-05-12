@@ -1,218 +1,211 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf200
-{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+html,
+body,
+div,
+h1,
+p,
+span {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 5px;
+}
 
-\f0\fs24 \cf0 html, \
-body, \
-div, \
-h1, \
-p, \
-span \{\
-  box-sizing: border-box;\
-  margin: 0;\
-  padding: 5px;\
-\}\
-\
-body \{\
-  background: linear-gradient (to right, silver, lightSlateGray);\
-  color: dimGray;\
-  text-shadow: 2px 2px 2px silver;\
-  font-family: Dosis, Arial;\
-  letter-spacing: 1.5px;\
-  word-spacing: 2px;\
-  margin: auto;\
-\}\
-\
-/*header section*/\
-header \{\
-  display: flex;\
-  margin-bottom: 30px;\
-  padding: 20px 0;\
-  width: 100%;\
-  border-bottom: silver double 3px;\
-\}\
-\
-h1 \{\
-  font-weight: 4em;\
-  font-size: 32px;\
-  text-transform: uppercase;\
-\}\
-\
-/*profile picture credit: Kevin Ong*/\
-/*logo and icons created using free services from 'www.logojoy.com'*/\
-#logoContainer \{\
-  width: 20%;\
-\}\
-\
-.logo \{\
-  display: block;\
-  margin: auto;\
-\}\
-\
-#nameContainer \{\
-  text-align: right;\
-  width: 100%;\
-\}\
-\
-.tagline \{\
-  font-size: 15px;\
-\}\
-\
-h1, \
-.tagline, \
-.contact \{\
-  display: grid;\
-  grid-template: 150px;\
-  text-align: right;\
-  padding: 10px 0 0 10px;\
-\}\
-\
-.email, \
-.linkedIn, \
-.twitter \{\
-	display: block;\
-  padding: 10px 0 0 0;\
-  font-size: 0.85em;\
-\}\
-\
-/*Main content section*/\
-#mainContainer \{\
-  width: 100%;\
-\}\
-\
-h2 \{\
-  color: gray;\
-  font-size: 26px;\
-  font-weight: normal;\
-  margin-bottom: 10px;\
-\}\
-\
-.description \{\
-  font-size: 20px;\
-  text-align: left;\
-\}\
-\
-span \{\
-  display: block;\
-\}\
-\
-.wordcloudImage \{\
-  width: 100%;\
-\}\
-\
-.field \{\
-  text-transform: uppercase;\
-  font-size: 26px;\
-\}\
-\
-.imageContainer \{\
-  margin-bottom: 18px;\
-\}\
-\
-.highlight \{\
-  text-align: center;\
-  width: 100%;\
-\}\
-\
-.thumbnail-img \{\
-  border: 1px silver dotted;\
-  width: 100%;\
-\}\
-\
-/*Footer*/\
-.copyright\{\
-  color: lightSteelBlue;\
-  display: block;\
-  text-align: right;\
-  font-size: 0.75em;\
-  padding: 50px 0;\
-\}\
-\
-/*Media Queries*/\
-/*Small Screen*/\
-@media screen and (max-width: 340px) \{\
-	.thumbnail-img \{\
-		width: 25em;\
-	\}\
-\}\
-\
-/*Medium Screen*/\
-@media screen and (max-width: 750px) \{\
-  header \{\
-    flex-wrap: wrap;\
-    display: flex;\
-		justify-content: space-between;\
-		align-items: center;\
-		padding: 4em;\
-  \}\
-  \
-  h1 \{\
-    font-size: 2em;\
-  \}\
-  \
-  h1, \
-  .tagline \{\
-    text-align: left;\
-  \}\
-  \
-  span \{\
-    display: block;\
-  \}\
-  \
-  #logoContainer \{\
-    margin-bottom: 20px;\
-    width: 12em;\
-  \}\
-  \
-  .logo \{\
-    margin: auto 5%;\
-  \}\
-  \
-  #nameContainer \{\
-    width: 100%;\
-  \}\
-  \
-  #experience, \
-  .highlight, \
-  .thumbnail-img \{\
-    width: 30em;\
-  \}\
-  \
-  .field \{\
-    font-size: 1.5em;\
-    margin: 5px 0 30px 0;\
-  \}\
-\}\
-\
-/* Large Screen - First breakpoint */\
-@media screen and (min-width: 751px) \{\
-#experience \{\
-    display: flex;\
-    justify-content: space-between;\
-    flex-wrap: wrap;\
-    width: 100%;\
-  \}\
-  \
-.highlight \{\
-    width: 30%;\
-  \}\
-  \
-.field \{\
-    font-size: 1.5em;\
-  \}\
-\}\
-\
-/* Large Screen - Second Breakpoint */\
-@media screen and (min-width: 980px) \{\
-   header, \
-   main \{\
-    width: 100%;\
-    max-width: 960px;\
-    margin-left: auto;\
-    margin-right: auto;\
-  \}\
-\}\
+body {
+  background: linear-gradient (to right, silver, lightSlateGray);
+  color: dimGray;
+  text-shadow: 2px 2px 2px silver;
+  font-family: Dosis, Arial;
+  letter-spacing: 1.5px;
+  word-spacing: 2px;
+  margin: auto;
+}
+
+/*header section*/
+header {
+  display: flex;
+  margin-bottom: 30px;
+  padding: 20px 0;
+  width: 100%;
+  border-bottom: silver double 3px;
+}
+
+h1 {
+  font-weight: 4em;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+/*profile picture credit: Kevin Ong*/
+/*logo and icons created using free services from 'www.logojoy.com'*/
+
+#logoContainer {
+  width: 20%;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+}
+
+#nameContainer {
+  text-align: right;
+  width: 100%;
+}
+
+.tagline {
+  font-size: 15px;
+}
+
+h1,
+.tagline,
+.contact {
+  display: grid;
+  grid-template: 150px;
+  text-align: right;
+  padding: 10px 0 0 10px;
+}
+
+.email,
+.linkedIn,
+.twitter {
+  display: block;
+  padding: 10px 0 0 0;
+  font-size: 0.85em;
+}
+
+/*Main content section*/
+#mainContainer {
+  width: 100%;
+}
+
+h2 {
+  color: gray;
+  font-size: 26px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 20px;
+  text-align: left;
+}
+
+span {
+  display: block;
+}
+
+.wordcloudImage {
+  width: 100%;
+}
+
+.field {
+  text-transform: uppercase;
+  font-size: 26px;
+}
+
+.imageContainer {
+  margin-bottom: 18px;
+}
+
+.highlight {
+  text-align: center;
+  width: 100%;
+}
+
+.thumbnail-img {
+  border: 1px silver dotted;
+  width: 100%;
+}
+
+/*Footer*/
+.copyright{
+  color: lightSteelBlue;
+  display: block;
+  text-align: right;
+  font-size: 0.75em;
+  padding: 50px 0;
+}
+
+/*Media Queries*/
+/*Small Screen*/
+@media screen and (max-width: 340px) {
+  .thumbnail-img {
+	width: 25em;
+  }
+}
+
+/*Medium Screen*/
+@media screen and (max-width: 750px) {
+  header {
+    flex-wrap: wrap;
+    display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 4em;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  h1, 
+  .tagline {
+    text-align: left;
+  }
+  
+  span {
+    display: block;
+  }
+  
+  #logoContainer {
+    margin-bottom: 20px;
+    width: 12em;
+  }
+  
+  .logo {
+    margin: auto 5%;
+  }
+  
+  #nameContainer {
+    width: 100%;
+  }
+  
+  #experience,
+  .highlight,
+  .thumbnail-img {
+    width: 30em;
+  }
+  
+  .field {
+    font-size: 1.5em;
+    margin: 5px 0 30px 0;
+  }
+}
+
+/* Large Screen - First breakpoint */
+@media screen and (min-width: 751px) {
+#experience {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+.highlight {
+    width: 30%;
+  }
+
+.field {
+    font-size: 1.5em;
+  }
+}
+
+/* Large Screen - Second Breakpoint */
+@media screen and (min-width: 980px) {
+   header,
+   main {
+    width: 100%;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
